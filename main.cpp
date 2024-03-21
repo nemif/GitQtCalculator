@@ -25,8 +25,7 @@ cout << "Введите два числа: ";
             cout << "Произведение: " << multiply(a, b) << endl;
             break;
         case 4:
-            // вызов функции деления
-            cout << "Деление в разработке\n";
+          cout << "Частное: " << divide(a, b) << endl;
             break;
         default:
             cout << "Некорректный выбор\n";
