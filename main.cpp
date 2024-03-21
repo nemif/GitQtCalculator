@@ -5,6 +5,7 @@ using namespace std;
 int main() {
  setlocale(LC_ALL, "Russian");
     int choice, a,b;
+    cout << "Добро пожаловать в калькулятор!\n";
     cout << "Выберите операцию:\n";
     cout << "1. Сложение\n";
     cout << "2. Вычитание\n";
