@@ -5,6 +5,7 @@ using namespace std;
 int main() {
  setlocale(LC_ALL, "Russian");
     int choice, a,b;
+    cout << "Добро пожаловать в калькулятор!\n";
     cout << "Выберите операцию:\n";
     cout << "1. Сложение\n";
     cout << "2. Вычитание\n";
@@ -18,12 +19,10 @@ cout << "Введите два числа: ";
             cout << "Сумма: " << sum(a, b) << endl;
             break;
         case 2:
-            // вызов функции вычитания
-            cout << "Вычитание в разработке\n";
+            cout << "Разность: " << subtract(a, b) << endl;
             break;
         case 3:
-            // вызов функции умножения
-            cout << "Умножение в разработке\n";
+            cout << "Произведение: " << multiply(a, b) << endl;
             break;
         case 4:
             // вызов функции деления
