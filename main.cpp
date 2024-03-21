@@ -1,19 +1,20 @@
 #include <iostream>
+#include "calculator.h"
 using namespace std;
 
 int main() {
-    int choice;
+    int choice, a,b;
     cout << "Выберите операцию:\n";
     cout << "1. Сложение\n";
     cout << "2. Вычитание\n";
     cout << "3. Умножение\n";
     cout << "4. Деление\n";
     cin >> choice;
-
+cout << "Введите два числа: ";
+    cin >> a >> b;
     switch (choice) {
         case 1:
-            // вызов функции суммирования
-            cout << "Суммирование в разработке\n";
+            cout << "Сумма: " << sum(a, b) << endl;
             break;
         case 2:
             // вызов функции вычитания
